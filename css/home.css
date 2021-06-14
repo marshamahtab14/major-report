@@ -9,6 +9,16 @@ body {
     background-size: cover
 }
 
+.hi{
+  margin-left: 510px;
+  padding-right: 10px;
+}
+.h{
+  margin-left: 600px;
+}
+
+
+
 .a {
   text-decoration: none;
   color: #ffffff;
@@ -16,26 +26,27 @@ body {
 .but{
   position: relative;
   left: 40%;
-  color: white;
+
 }
 
 
 
 .btn1 {
-  -webkit-border-radius: 9;
-  -moz-border-radius: 9;
-  border-radius: 9px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
   font-family: Georgia;
   color: #ffffff;
-  font-size: 30px;
-  background: #26b347;
-  padding: 4px 16px 6px 17px;
+  font-size: 26px;
+  background: #228B22;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn1:hover {
-  background: #020405;
+  background: #545c5c;
   text-decoration: none;
+  color: #ffffff;
 }
 
 section{
@@ -137,3 +148,7 @@ a.btn-card {
     color: #fff;
 }
 /* End card section */
+.imgu{
+
+  height:250px;
+}

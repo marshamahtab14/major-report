@@ -1,0 +1,90 @@
+
+body{
+  background-color: #292a2a;
+
+}
+
+.column{
+  color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+h2{
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 39px;
+}
+/* .author{
+  font-family: 'Playball', cursive;
+} */
+.publica{
+  font-family: 'Benne', serif;
+  font-size: 18px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.imgi{
+  position: fixed;
+  width: 40%;
+height: 600px;
+  margin-left: 20px;
+}
+
+.imgsmal{
+  width: 160px;
+  height:250px;
+  margin-left: 35%
+}
+.author{
+  padding-left: 35px;
+}
+
+.but{
+  position: relative;
+  left: 43%;
+  top: 2%;
+
+}
+.he {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  background: #292a2a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.he:hover {
+  background: #228B22;
+  text-decoration: none;
+    color: #ffffff;
+}
